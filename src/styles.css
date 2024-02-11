@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f6f7f8; 
+    color: #323232; 
+}
+
+.search-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #3b5998; 
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff; 
+}
+
+
+.submit {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit:hover {
+    background-color: #388e3c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+.load-more {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.load-more:hover {
+    background-color: #1565c0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.gallery {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.photo-card {
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.img_wrap {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.gallery_link {
+    display: block;
+    text-decoration: none;
+}
+
+.load-more {
+    margin: 40px auto;
+    width: 200px;
+    background-color: #2196f3;
+    color: #fff; 
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 12px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+  }
+
+.image-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
