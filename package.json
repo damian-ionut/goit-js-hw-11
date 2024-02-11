@@ -2,7 +2,7 @@
   "name": "homework-11",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/damian-ionut/goit-js-hw-11",
+  "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/damian-ionut/goit-js-hw-11"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/damian-ionut/goit-js-hw-11"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
     "axios": "^1.6.7",
